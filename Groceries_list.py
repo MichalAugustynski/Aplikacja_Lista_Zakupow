@@ -10,9 +10,5 @@ def create_new_list(folder_path,name, length,title):
 			# file.write(i,'.')
 		file.write(str_punctation)
 
-title = input("Tytuł listy: ")
-folder_path = r"C:\Users\gracz\Desktop"
-file_name = input("Nazwa listy: ") + ".txt"
-length =int(input("Jak długa ma byc twoja lista?"))
-create_new_list(folder_path,file_name,length,title)
+
 

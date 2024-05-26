@@ -15,7 +15,7 @@
 -> 
 
 ## Autorzy:
-Projekt realizowany przez:
+Projekt realizowany przez:  
 -> Michał Augustyński  
 -> Mateusz Bąk  
 -> Łukasz Broś  

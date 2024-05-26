@@ -9,6 +9,7 @@ def create_new_list(folder_path,name, length,title):
 			str_punctation += str_
 			# file.write(i,'.')
 		file.write(str_punctation)
+		print("Ścieżka twojej listy: ", file_path)
 
 
 

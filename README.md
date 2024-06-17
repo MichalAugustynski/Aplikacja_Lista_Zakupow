@@ -21,9 +21,9 @@ Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konsoli.
 Projekt realizowany przez:  
 -> Michał Augustyński  
 -> Mateusz Bąk  
-
-## Sprawozdanie:
-https://docs.google.com/document/d/12As1uiMwjbgk0IZU-JXyLc1emJl9NaS8Pqc7fKjBT4g/edit?usp=sharing
 -> Łukasz Broś  
 -> Kinga Dąbrowska  
 -> Daniel Sterzel  
+
+## Sprawozdanie:
+https://docs.google.com/document/d/12As1uiMwjbgk0IZU-JXyLc1emJl9NaS8Pqc7fKjBT4g/edit?usp=sharing

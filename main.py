@@ -21,3 +21,24 @@ class listy:
                 self.produkt = [produkt.strip() for produkt in self.produkt]
         else:
             self.produkt = []
+    def wyswietl_produkt(self):
+        self.wczytaj_produkt()
+        if self.produkt:
+            print(f"Produkty na liście '{self.tytul}':")
+            for produkt in self.produkt:
+                print(f"- {produkt}")
+        else:
+            print(f"Nie ma produktów na liście '{self.tytul}'.")
+
+    def usun_liste(self):
+        if os.path.exists(self.nazwa):
+            os.remove(self.nazwa)
+            print(f"Lista '{self.tytul}' została usunięta.")
+        else:
+            print(f"Lista '{self.tytul}' nie istnieje.")
+    def zapisz_liste(self, sciezka):
+        if os.path.exists(self.nazwa):
+            shutil.copy(self.nazwa, sciezka)
+            print(f"Lista '{self.tytul}' została zapisana pod ścieżką '{sciezka}'.")
+        else:
+            print(f"Lista '{self.tytul}' nie istnieje, więc nie można jej zapisać.")       

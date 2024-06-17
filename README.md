@@ -14,7 +14,7 @@ Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konosli.
 -> Visual Studio Code  
 -> Discord  
 -> Messenger  
--> Piwo
+-> **PIWO**
 
 ## Autorzy:
 Projekt realizowany przez:  

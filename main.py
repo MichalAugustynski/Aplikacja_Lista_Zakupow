@@ -47,33 +47,33 @@ class listy:
         files = [f for f in os.listdir() if f.endswith('.txt')]
         lists = [os.path.splitext(f)[0] for f in files]
         return lists
-def main():
-    while True:
-        print("\nOpcje:")
-        print("1. Dodaj nową listę")
-        print("2. Zobacz istniejące listy")
-        print("3. Usuń istniejącą listę")
-        print("4. Zapis pod ścieżką")
-        print("5. Wyjdź")
-        choice = input("Wybierz opcję: ")
-
-        if choice == '1':
-            tytul = input("Tytuł nowej listy: ")
-            list_manager = listy(tytul)
-
-            while True:
-                print("\nOpcje:")
-                print("1. Dodaj produkt do listy")
-                print("2. Wyświetl produkty z tej listy")
-                print("3. Wróć")
-                sub_choice = input("Wybierz opcję: ")
-
-                if sub_choice == '1':
-                    produkt = input("Wprowadź produkt: ")
-                    list_manager.dodaj_produkt(produkt)
-                elif sub_choice == '2':
-                    list_manager.wyswietl_produkt()
-                elif sub_choice == '3':
-                    break
-                else:
-                    print("Błąd")
+    def main():
+        while True:
+            print("\nOpcje:")
+            print("1. Dodaj nową listę")
+            print("2. Zobacz istniejące listy")
+            print("3. Usuń istniejącą listę")
+            print("4. Zapis pod ścieżką")
+            print("5. Wyjdź")
+            choice = input("Wybierz opcję: ")
+    
+            if choice == '1':
+                tytul = input("Tytuł nowej listy: ")
+                list_manager = listy(tytul)
+    
+                while True:
+                    print("\nOpcje:")
+                    print("1. Dodaj produkt do listy")
+                    print("2. Wyświetl produkty z tej listy")
+                    print("3. Wróć")
+                    sub_choice = input("Wybierz opcję: ")
+    
+                    if sub_choice == '1':
+                        produkt = input("Wprowadź produkt: ")
+                        list_manager.dodaj_produkt(produkt)
+                    elif sub_choice == '2':
+                        list_manager.wyswietl_produkt()
+                    elif sub_choice == '3':
+                        break
+                    else:
+                        print("Błąd")

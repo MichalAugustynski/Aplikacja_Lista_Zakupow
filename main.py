@@ -41,4 +41,9 @@ class listy:
             shutil.copy(self.nazwa, sciezka)
             print(f"Lista '{self.tytul}' została zapisana pod ścieżką '{sciezka}'.")
         else:
-            print(f"Lista '{self.tytul}' nie istnieje, więc nie można jej zapisać.")       
+            print(f"Lista '{self.tytul}' nie istnieje, więc nie można jej zapisać.")    
+
+    def list_existing_lists():
+        files = [f for f in os.listdir() if f.endswith('.txt')]
+        lists = [os.path.splitext(f)[0] for f in files]
+        return lists

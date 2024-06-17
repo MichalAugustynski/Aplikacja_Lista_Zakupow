@@ -5,14 +5,16 @@
 -> Zapis i wczytywanie wydarzeń.  
 -> Zapis pod zadaną ścieżkę.  
 -> Usuwanie i edytowanie list.  
--> ...  
+-> Zliczanie produktów
 ## Obsługa: 
-**. . .**
+Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konosli.
 ## Użyte Narzędzia:
 -> GIThub  
 -> Pycharm  
 -> Visual Studio Code  
--> 
+-> Discord  
+-> Messenger  
+-> Piwo
 
 ## Autorzy:
 Projekt realizowany przez:  

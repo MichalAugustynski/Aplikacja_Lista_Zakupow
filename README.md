@@ -14,6 +14,7 @@ Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konsoli.
 -> Visual Studio Code  
 -> Discord  
 -> Messenger  
+-> Microsoft OneDrive  
 -> **PIWO**
 
 ## Autorzy:

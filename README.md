@@ -7,7 +7,7 @@
 -> Usuwanie i edytowanie list.  
 -> Zliczanie produktów
 ## Obsługa: 
-Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konosli.
+Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konsoli.
 ## Użyte Narzędzia:
 -> GIThub  
 -> Pycharm  

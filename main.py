@@ -43,6 +43,8 @@ class listy:
         else:
             print(f"Lista '{self.tytul}' nie istnieje, więc nie można jej zapisać.")    
 
+    def przenies_na_szczyt(self, produkt):
+        
     def list_existing_lists():
         files = [f for f in os.listdir() if f.endswith('.txt')]
         lists = [os.path.splitext(f)[0] for f in files]

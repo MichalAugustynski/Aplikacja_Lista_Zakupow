@@ -7,6 +7,7 @@
 -> Usuwanie i edytowanie list.  
 -> Zliczanie produktów
 -> Przeniesienie artykułu na szczyt listy
+
 ## Obsługa: 
 Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konsoli.
 ## Użyte Narzędzia:

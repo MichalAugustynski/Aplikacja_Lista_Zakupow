@@ -52,7 +52,7 @@ class listy:
                 for p in self.produkt:
                     file.write(f"{p}\n")
             print(f"Produkt '{produkt}' został przeniesiony na szczyt listy.")  
-            else:    
+        else:    
     
     def list_existing_lists():
         files = [f for f in os.listdir() if f.endswith('.txt')]

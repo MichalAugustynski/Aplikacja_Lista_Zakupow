@@ -120,36 +120,36 @@ class listy:
             else:
                 print("Nie znaleziono żadnych list.")
 
-        elif choice == '3':
-            lists = list_existing_lists()
-            if lists:
-                print("Twoje listy:")
-                for i, tytul in enumerate(lists, 1):
-                    print(f"{i}. {tytul}")
-                list_choice = int(input("Wybierz numer listy do usunięcia lub 0 aby wrócić: "))
-                if list_choice > 0 and list_choice <= len(lists):
-                    list_manager = listy(lists[list_choice - 1])
-                    list_manager.usun_liste()
-            else:
-                print("Nie znaleziono żadnych list.")
-        elif choice == '4':
-            lists = list_existing_lists()
-            if lists:
-                print("Twoje listy:")
-                for i, tytul in enumerate(lists, 1):
-                    print(f"{i}. {tytul}")
-                list_choice = int(input("Wybierz numer listy do zapisu pod ścieżką lub 0 aby wrócić: "))
-                if list_choice > 0 and list_choice <= len(lists):
-                    list_manager = listy(lists[list_choice - 1])
-                    sciezka = input("Podaj ścieżkę do zapisu listy: ")
-                    list_manager.zapisz_liste(sciezka)
-            else:
-                print("Nie znaleziono żadnych list.")
+            elif choice == '3':
+                lists = list_existing_lists()
+                if lists:
+                    print("Twoje listy:")
+                    for i, tytul in enumerate(lists, 1):
+                        print(f"{i}. {tytul}")
+                    list_choice = int(input("Wybierz numer listy do usunięcia lub 0 aby wrócić: "))
+                    if list_choice > 0 and list_choice <= len(lists):
+                        list_manager = listy(lists[list_choice - 1])
+                        list_manager.usun_liste()
+                else:
+                    print("Nie znaleziono żadnych list.")
+            elif choice == '4':
+                lists = list_existing_lists()
+                if lists:
+                    print("Twoje listy:")
+                    for i, tytul in enumerate(lists, 1):
+                        print(f"{i}. {tytul}")
+                    list_choice = int(input("Wybierz numer listy do zapisu pod ścieżką lub 0 aby wrócić: "))
+                    if list_choice > 0 and list_choice <= len(lists):
+                        list_manager = listy(lists[list_choice - 1])
+                        sciezka = input("Podaj ścieżkę do zapisu listy: ")
+                        list_manager.zapisz_liste(sciezka)
+                else:
+                    print("Nie znaleziono żadnych list.")
 
-        elif choice == '5':
-            break
-        else:
-            print("Błąd")
+            elif choice == '5':
+                break
+            else:
+                print("Błąd")
 
 if __name__ == "__main__":
     main()           

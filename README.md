@@ -6,7 +6,6 @@
 -> Zapis pod zadaną ścieżkę.  
 -> Usuwanie i edytowanie list.  
 -> Zliczanie produktów
-
 -> Przeniesienie artykułu na szczyt listy
 
 ## Obsługa: 

@@ -56,11 +56,11 @@ class listy:
         else:
             print(f"Produkt '{produkt}' nie został znaleziony na liście.")
     
-    def list_existing_lists():
-        files = [f for f in os.listdir() if f.endswith('.txt')]
-        lists = [os.path.splitext(f)[0] for f in files]
-        return lists
-    def main():
+def list_existing_lists():
+    files = [f for f in os.listdir() if f.endswith('.txt')]
+    lists = [os.path.splitext(f)[0] for f in files]
+    return lists
+def main():
         while True:
             print("\nOpcje:")
             print("1. Dodaj nową listę")

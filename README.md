@@ -8,6 +8,7 @@
 -> Zliczenie produktów.
 -> Przenoszenie artykułów na szczyt listy.
 
+
 ## Obsługa: 
 Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konsoli.
 ## Użyte Narzędzia:

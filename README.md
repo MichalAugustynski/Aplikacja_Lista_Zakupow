@@ -4,9 +4,10 @@
 -> Wyszukiwanie listy po nazwie i jej wyświetlanie.  
 -> Zapis i wczytywanie wydarzeń.  
 -> Zapis pod zadaną ścieżkę.  
--> Usuwanie i edytowanie list.  
--> Zliczenie produktów.
+-> Usuwanie i edytowanie list.
 -> Przenoszenie artykułów na szczyt listy.
+-> Zliczenie produktów.
+
 
 
 ## Obsługa: 

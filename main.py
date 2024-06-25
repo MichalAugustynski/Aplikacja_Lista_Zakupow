@@ -146,10 +146,10 @@ class listy:
                 else:
                     print("Nie znaleziono żadnych list.")
 
-            elif choice == '5':
-                break
-            else:
-                print("Błąd")
+                elif choice == '5':
+                    break
+                else:
+                    print("Błąd")
 
 if __name__ == "__main__":
     main()           

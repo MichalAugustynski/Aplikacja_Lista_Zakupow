@@ -65,6 +65,6 @@ class ListManager:
             else:
                 print("Nieprawidłowa opcja, spróbuj ponownie.")
 
-if __name__ == "__main__":
+ main():if
     manager = ListManager()
     manager.run()

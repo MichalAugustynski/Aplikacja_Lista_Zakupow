@@ -50,7 +50,7 @@ class listy:
             self.produkt.insert(1, produkt)
             with open(self.nazwa, 'w') as file:
                 for p in self.produkt:
-                    file.write(f"{p}")
+                    file.write(f"{p}\n")
     
     def list_existing_lists():
         files = [f for f in os.listdir() if f.endswith('.txt')]

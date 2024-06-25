@@ -36,6 +36,7 @@ class listy:
             print(f"Lista '{self.tytul}' została usunięta.")
         else:
             print(f"Lista '{self.tytul}' nie istnieje.")
+            
     def zapisz_liste(self, sciezka):
         if os.path.exists(self.nazwa):
             shutil.copy(self.nazwa, sciezka)

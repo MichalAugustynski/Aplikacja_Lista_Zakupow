@@ -48,6 +48,7 @@ class listy:
         if produkt in self.produkt:
             self.produkt.remove(produkt)
             self.produkt.insert(1, produkt)
+            with open(self.nazwa, 'w') as file:
     
     def list_existing_lists():
         files = [f for f in os.listdir() if f.endswith('.txt')]

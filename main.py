@@ -51,6 +51,7 @@ class listy:
             with open(self.nazwa, 'w') as file:
                 for p in self.produkt:
                     file.write(f"{p}\n")
+            print(f"Produkt '{produkt}' został przeniesiony na szczyt listy.")        
     
     def list_existing_lists():
         files = [f for f in os.listdir() if f.endswith('.txt')]

@@ -48,7 +48,7 @@ class listy:
         self.wczytaj_produkt()
         if produkt in self.produkt:
             self.produkt.remove(produkt)
-            self.produkt.insert(1, produkt)
+            self.produkt.insert(0, produkt)
             with open(self.nazwa, 'w') as file:
                 for p in self.produkt:
                     file.write(f"{p}\n")

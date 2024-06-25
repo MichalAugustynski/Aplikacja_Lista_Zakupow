@@ -5,8 +5,8 @@
 -> Zapis i wczytywanie wydarzeń.  
 -> Zapis pod zadaną ścieżkę.  
 -> Usuwanie i edytowanie list.  
--> Zliczanie produktów
--> Przeniesienie artykułu na szczyt listy
+-> Zliczanie produktów.
+-> Przeniesienie artykułu na szczyt listy.
 
 ## Obsługa: 
 Wybierz opcję którą chcesz przez wpisanie odpowiedniej cyfry w konsoli.
